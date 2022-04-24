@@ -27,6 +27,7 @@ header{
     padding: 0 1.5rem;
 }
 
+
 .nav{
     width: 100%;
     height: 12rem;
@@ -123,32 +124,31 @@ header{
 
 /* Hero Demo Content*/
 .hero{
-    width: 100%;
-    height: 100vh;
-    background: url("basic.png") center no-repeat;
+float: left;
+    width: 50%;
+    height: 50vh;
+    background: url("tac.gif") center no-repeat;
     background-size: cover;
     position: relative;
 }
-
-.hero::after{
-    content: '';
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.5);
+.herotwo{
+float: right;
+    width: 50%;
+    height: 50vh;
+    background: url("code.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.demo-content{
-    width: 100%;
-    height: 200vh;
-    background-color: #fff;
+
+
 }
 <!--middle text-->
 * {
   box-sizing:border-box;
 }
+
+
 
 body {
   margin: 0;
@@ -171,9 +171,10 @@ body {
 }
 
 .column-33 {
-  float: left;
+  float: right;
   width: 33.33333%;
   padding: 20px;
+
 }
 
 .large-font {
@@ -184,21 +185,16 @@ body {
   font-size: 64px
 }
 
-.button {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #04AA6D;
-}
 
 img {
   display: block;
   height: auto;
   max-width: 200%;
 margin-right: -70em;
+   border: 10px inset #3DCBB4; padding:1em;
+
 }
+
 
 @media screen and (max-width: 1000px) {
   .column-66,
@@ -230,6 +226,8 @@ margin-right: -70em;
 }
 
 .footer-basic li {
+  background-position: right bottom;
+
   padding:0 10px;
 }
 
