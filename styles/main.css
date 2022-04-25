@@ -189,7 +189,8 @@ body {
 img {
   display: block;
   height: auto;
-  max-width: 200%;
+  max-width: 120%;
+  width: auto\9;
 margin-right: -70em;
    border: 10px inset #3DCBB4; padding:1em;
 
